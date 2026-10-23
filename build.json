@@ -1,0 +1,18 @@
+{
+  "name": "checkcert",
+  "version": "0.2.1",
+  "release": "1",
+  "channel": "xg",
+  "entrypoint": ".",
+  "version_pkg": "main.version",
+  "build_pkg": "",
+  "summary": "X.509 TLS certificate validator and expiration monitor",
+  "description": "Utility to check certificate expiration, SAN entries, chains, and cipher suites across local files and remote endpoints.",
+  "maintainer": "Mis Center <support@criticalsys.net>",
+  "license": "MIT",
+  "url": "https://criticalsys.net",
+  "section": "utils",
+  "priority": "optional",
+  "install_path": "/usr/bin",
+  "cgo": false
+}
